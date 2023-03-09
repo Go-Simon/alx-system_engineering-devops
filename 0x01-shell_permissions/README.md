@@ -28,8 +28,8 @@ chgrp school hello
 
 chown vincent: staff 0x01-shell_permissions
 
-chown -h vincent:staff _hello
+chown -h vincent:staff _hello .
 
-chown -R --from=guillaume betty
+chown -R --from=guillaume betty hello
 
 telnet towel.blinkenlights.nl
